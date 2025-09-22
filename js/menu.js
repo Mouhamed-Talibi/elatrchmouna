@@ -43,7 +43,6 @@ window.addEventListener('scroll', () => {
     // when scrolled to top and About when scrolled down a bit
     if (scrollPosition < 300) {
         links.forEach(l => l.classList.remove('active'));
-        document.querySelector('a[href="#home"]').classList.add('active');
     } else if (scrollPosition < 600) {
         links.forEach(l => l.classList.remove('active'));
         document.querySelector('a[href="#about"]').classList.add('active');
