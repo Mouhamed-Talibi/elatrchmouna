@@ -13,5 +13,5 @@ window.addEventListener('load', () => {
         document.body.style.overflow = 'visible'; // Restore scrolling
         // Show the content
         content.style.display = 'block'; // Or use 'flex', 'grid', etc., based on your layout
-    }, 500); // Adjust the time (in milliseconds) as needed
+    }, 1000); // Adjust the time (in milliseconds) as needed
 });
